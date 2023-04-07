@@ -57,6 +57,10 @@ a {
   border-color: inherit;
 }
 
+.gap-5 {
+  gap: 5px;
+}
+
 .gap-10 {
   gap: 10px;
 }
@@ -361,7 +365,7 @@ footer .input-group-text {
 
 .product-card .product-details p.price {
   font-size: 16px;
-  color: var(--color-1c1b1b);
+  color: var(--color-1c1b1b) !important;
 
 }
 
@@ -377,3 +381,89 @@ footer .input-group-text {
 }
 
 /* ProductCard Part end */
+
+/* Special product */
+.special-product-card {
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.special-product-content h6 {
+  color: var(--color-bf4800);
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0 0 12px;
+  opacity: 1;
+}
+
+/* Special prodcut end */
+
+/* famous-card */
+.famous-card img {
+  border-radius: 10px;
+}
+
+.famous-card .famous-content {
+  top: 10%;
+  left: 5%
+}
+
+.famous-content h5 {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+}
+
+.famous-card h6 {
+  font-size: 25px;
+  line-height: 24px;
+  color: white;
+  font-weight: 500;
+}
+
+.famous-content p {
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  font-weight: 100;
+}
+
+/* famous-card end */
+
+/* Our Store */
+.filter-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.filter-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-1c1b1b);
+  margin-bottom: 20px;
+}
+
+.filter-card ul {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: var(--color-777777);
+  cursor: pointer;
+}
+
+.sub-title {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 600;
+  color: var(--color-1c1b1b);
+  margin-bottom: 20px;
+}
+
+/* Our Store end */
