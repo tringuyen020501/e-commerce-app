@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsGithub, BsYoutube, BsInstagram, BsFacebook } from "react-icons/bs";
@@ -75,7 +76,8 @@ const Footer = () => {
                            >
                               <BsGithub className="fs-4" />
                            </a>
-                           <a className="text-white" href="#">
+                           <a 
+                               className="text-white" href="#">
                               <BsYoutube className="fs-4" />
                            </a>
                         </div>
