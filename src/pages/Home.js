@@ -303,6 +303,13 @@ const Home = () => {
                   </div>
                </div>
                <div className="row">
+               <div className="col-2">
+                  <div className="card"></div>
+               </div>
+               <div className="col-2">
+                  <div className="card"></div>
+               </div>
+
                   <ProductCard />
                   <ProductCard />
                   <ProductCard />

@@ -6,7 +6,7 @@ const SpecialProduct = () => {
    return (
       <div className="col-6 mb-3">
          <div className="special-product-card">
-            <div className="d-flex justify-conten-between ">
+            <div className="d-flex justify-content-between">
                <div>
                   <img src="images/watch.jpg" className="img-fluid" />
                </div>
